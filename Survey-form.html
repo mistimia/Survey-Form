@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<title>Survey-Form</title>
+<link rel="stylesheet" href="Survey-Form.css">
+
+</head>
+<body>
+<h1 id="title"><b>Survey Form</b></h1>
+<div>
+<p id="description">Let us Know how we can help </p>
+<form id="survey-form">
+<label for="name-label">
+<b>*Name</b></label>
+<input type="text" id="name-label" name="name" placeholder="Enter Your Name" required>
+
+<br>
+<br>
+<label for="email-label">
+<b>*Email-Id</b></label>
+<input type="email" id="email-label" name="email" placeholder="Enter Your Email Id" required>
+
+
+<br>
+<br>
+<label for="number-label">
+<b>*Age</b></label>
+<input type="number" id="number-label" name="number" placeholder="Enter Your Age" required>
+
+<br>
+<br>Which option best describes your current role?
+
+<select name="drop" id="drop-down" placeholder="Student">
+
+<option value="option" disabled>Select an Options</option>
+
+<option value="Student">Student</option>
+<option value="Job">Full Time Job</option>
+<option value="Learner">Full Time Learner</option>
+<option value="Not-to-say">Prefer Not to Say</option>
+<option value="others">Others</option>
+</select>
+
+<br>
+<br>
+How likely is that you would recommend freeCodeCamp to a friend?
+<label>
+<input type="radio" name="radio">Definetly
+</label>
+<br>
+<label>
+<input type="radio" name="radio">May be
+</label>
+<br>
+<label>
+<input type="radio" name="radio">Not Sure
+</label>
+
+
+<br>
+<br>What do you like most in FCC:
+
+<select name="drop" id="drop-down" placeholder="Select an Option">
+
+<option value="option" disabled selected value>Select Your Option</option>
+
+<option value="Challenges">Challenges</option>
+<option value="Projects">Projects</option>
+<option value="Community">Community</option>
+<option value="Open-Source">Open Source</option>
+</select>
+
+<br>
+<br>
+Things that should be improved in the future
+(Check all that apply):
+<label>
+<input type="checkbox" value="check">Front-end Projects</label><br>
+<label>
+<input type="checkbox" value="check">Back-end Projects</label><br>
+<label>
+<input type="checkbox" value="check">Data Visualization</label><br>
+<label>
+<input type="checkbox" value="check">Challenges</label><br>
+<label>
+<input type="checkbox" value="check">Open Source Community</label><br>
+<label>
+<input type="checkbox" value="check">Gitter help rooms</label><br>
+<label>
+<input type="checkbox" value="check">Videos</label><br>
+<label>
+<input type="checkbox" value="check">City Meetups</label><br>
+<label>
+<input type="checkbox" value="check">Wiki</label><br>
+<label>
+<input type="checkbox" value="check">Forum</label><br>
+<label>
+<input type="checkbox" value="check">Additional Courses</label><br>
+
+<br>
+<br>
+Any Comments or Suggestions?
+<textarea name="message" rows="10" cols="30">
+</textarea>
+
+<br>
+<br>
+<label for="button">
+<button type="button" id="button">Submit</button>
+</label>
+
+
+
+</form>
+</body>
+</html>
